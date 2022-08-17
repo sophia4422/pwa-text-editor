@@ -1,0 +1,20 @@
+{
+  "name": "pwa-text-editor",
+  "version": "1.0.0",
+  "description": "A text editor that runs in the browser that meets PWA criteria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophia4422/pwa-text-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophia4422/pwa-text-editor/issues"
+  },
+  "homepage": "https://github.com/sophia4422/pwa-text-editor#readme"
+}
