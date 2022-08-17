@@ -4,7 +4,12 @@
   "description": "A text editor that runs in the browser that meets PWA criteria",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server nodemon server.js --ignore client",
+    "build": "cd client && npm run build",
+    "install": "cd client && npm install",
+    "client": "cd client && npm start"
   },
   "repository": {
     "type": "git",
@@ -16,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/sophia4422/pwa-text-editor/issues"
   },
-  "homepage": "https://github.com/sophia4422/pwa-text-editor#readme"
+  "homepage": "https://github.com/sophia4422/pwa-text-editor#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "idb": "^7.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19"
+  }
 }
