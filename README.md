@@ -1,4 +1,4 @@
-# 19 Progressive Web Applications (PWA): Text Editor ok
+# 19 Progressive Web Applications (PWA): Text Editor okbob
 
 A text editor that runs in the browser that meets PWA criteria
 
