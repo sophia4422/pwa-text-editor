@@ -1,6 +1,10 @@
-# 19 Progressive Web Applications (PWA): Text Editor okbob
+# 19 Progressive Web Applications (PWA): Text Editor
 
 A text editor that runs in the browser that meets PWA criteria
+
+# View the deployed application
+
+https://hidden-harbor-84860.herokuapp.com/
 
 ## User Story
 
